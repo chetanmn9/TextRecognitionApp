@@ -14,6 +14,7 @@
 		6145D6E42443240A009EE6A6 /* RecieptReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6145D6E22443240A009EE6A6 /* RecieptReader.xcdatamodeld */; };
 		6145D6E62443240B009EE6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6145D6E52443240B009EE6A6 /* Assets.xcassets */; };
 		6145D6E92443240B009EE6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6145D6E72443240B009EE6A6 /* LaunchScreen.storyboard */; };
+		6152E334250F5C82007007AD /* TextRecognition.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6152E333250F5C82007007AD /* TextRecognition.gif */; };
 		61F70ED4244494C100E215CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61F70ED3244494C100E215CC /* GoogleService-Info.plist */; };
 		61F70ED6244520CC00E215CC /* TextRecognizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F70ED5244520CC00E215CC /* TextRecognizedViewController.swift */; };
 		7D6DBB8F0AAC3215287248F1 /* libPods-RecieptReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 523A086CBD7E40D003402547 /* libPods-RecieptReader.a */; };
@@ -32,6 +33,7 @@
 		6145D6E82443240B009EE6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6145D6EA2443240B009EE6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6152E328250F02AA007007AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6152E333250F5C82007007AD /* TextRecognition.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TextRecognition.gif; sourceTree = "<group>"; };
 		61F70ED3244494C100E215CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Users/chetan/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		61F70ED5244520CC00E215CC /* TextRecognizedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizedViewController.swift; sourceTree = "<group>"; };
 		9EBF833261113ECBEB03D3FA /* Pods-RecieptReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecieptReader.release.xcconfig"; path = "Target Support Files/Pods-RecieptReader/Pods-RecieptReader.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				6145D6EA2443240B009EE6A6 /* Info.plist */,
 				61F70ED3244494C100E215CC /* GoogleService-Info.plist */,
 				6145D6E22443240A009EE6A6 /* RecieptReader.xcdatamodeld */,
+				6152E332250F5C62007007AD /* App Demo */,
 				6145D6F024432417009EE6A6 /* Supporting Files */,
 			);
 			path = RecieptReader;
@@ -100,6 +103,14 @@
 				6145D6E72443240B009EE6A6 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6152E332250F5C62007007AD /* App Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6152E333250F5C82007007AD /* TextRecognition.gif */,
+			);
+			path = "App Demo";
 			sourceTree = "<group>";
 		};
 		8BEAB9D0C18B76BA205B1FF3 /* Frameworks */ = {
@@ -170,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6152E334250F5C82007007AD /* TextRecognition.gif in Resources */,
 				6145D6E92443240B009EE6A6 /* LaunchScreen.storyboard in Resources */,
 				61F70ED4244494C100E215CC /* GoogleService-Info.plist in Resources */,
 				6145D6E62443240B009EE6A6 /* Assets.xcassets in Resources */,
